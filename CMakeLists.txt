@@ -18,5 +18,5 @@ set(PANASONIC_AC_SOURCE_FILES
         IRGen.cpp
         IRGen.h)
 
-add_executable(IR-panasonic-ac-demo ${LG_AC_SOURCE_FILES})
-target_compile_definitions(IR-panasonic-ac-demo PRIVATE GEN_LG)
+add_executable(IR-panasonic-ac-demo ${PANASONIC_AC_SOURCE_FILES})
+target_compile_definitions(IR-panasonic-ac-demo PRIVATE GEN_HVAC_PANASONIC)
