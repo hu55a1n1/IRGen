@@ -116,6 +116,7 @@ int main(int argc, const char *argv[]) {
     IRGen irgen;
     setData((HvacMode_t) md, tmp, (HvacFanMode_) (fn), (HvacVanneMode_) vn, (HvacProfileMode_t) pf, sw);
     irgen.genHvacPanasonic(data);
+    printf("\n");
     exit(EXIT_SUCCESS);
 }
 
