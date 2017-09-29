@@ -90,13 +90,13 @@ void usage(const char *pgm) {
             "      0 : off\n"
             "      1 : temp/flow --temp=<18 ~ 30> --flow=<0 ~ 2>\n"
             "      2 : air_swing --swing=<0 or 1>\n"
+            "      3 : air_clean --clean=<0 or 1>\n"
             "--type=<0 or 1> (optional)\n"
             "      0 : tower\n"
             "      1 : wall (default)\n"
             "--heat=<0 or 1> (optional)\n"
             "      0 : cool (default)\n"
-            "      1 : heat\n"
-            "      3 : air_clean --clean=<0 or 1>\n");
+            "      1 : heat\n");
 }
 
 void exit_error(const char *pgm, const char *err) {
