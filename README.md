@@ -19,4 +19,4 @@ make
 
 This should build all demos in the `cmake-build-debug` directory.
 
-Tested on clang (Mac OSX 10.12.6) and g++ (Ubuntu 16.04).
+Tested on clang-900.0.37 (Mac OSX 10.12.6) and gcc-5.4.0 (Ubuntu 16.04.4).
